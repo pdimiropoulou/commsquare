@@ -14,6 +14,12 @@ Open project folder and type the following commands:
 
 A web server will start at http://localhost:8080.
 
+## Run integration tests
+
+Open project folder and type the following commands:
+
+`npm run test`
+
 ### Sample Data
 Sample data have been created using sequilize seeders.
 
