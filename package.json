@@ -4,23 +4,29 @@
   "description": "",
   "main": "nodemon server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test jest --testTimeout=5000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.7",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "fs": "0.0.1-security",
+    "knex": "^2.4.2",
     "nodemon": "^2.0.22",
+    "objection": "^3.0.1",
     "path": "^0.12.7",
     "pg": "^8.10.0",
     "process": "^0.11.10",
     "sequelize": "^6.31.1",
-    "sequelize-auto-migrations": "^1.0.3"
+    "sequelize-auto-migrations": "^1.0.3",
+    "supertest": "^6.3.3",
+    "testcontainers": "^9.8.0"
   },
   "devDependencies": {
+    "jest": "^29.5.0",
     "sequelize-cli": "^6.6.0"
   }
 }

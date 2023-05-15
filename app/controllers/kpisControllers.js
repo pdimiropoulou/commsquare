@@ -1,4 +1,4 @@
-const db = require("../models");
+const db = require('../models');
 const Kpi1 = db.Kpi1;
 const Kpi2 = db.Kpi2;
 const Op = db.Sequelize.Op;
